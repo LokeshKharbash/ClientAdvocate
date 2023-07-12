@@ -1,0 +1,37 @@
+<div class="horizontal-menu">
+  <nav class="navbar top-navbar">
+    <div class="container" style="margin-left: 2px;">
+      <div class="navbar-content" >
+
+        <!--- Logo -->
+        <a routerLink="/" class="navbar-brand clientadvocate-logo">
+          Client<span>Advocate</span>
+        </a>
+
+        <!-- <a routerLink="/" class="navbar-brand clientadvocate-logo">
+          <img src="assets/images/logo.png" alt="logo">
+        </a> -->
+
+        <form class="search-form">
+          <div class="input-group">
+            <div class="input-group-text">
+              <i class="feather icon-search"></i>
+            </div>
+            <input type="text" class="form-control" id="navbarForm" placeholder="Search here...">
+          </div>
+        </form>
+
+
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" (click)="toggleHeaderMenu()">
+          <i data-feather="menu" class="text-body"></i>					
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+	<nav class="bottom-navbar">
+		<div class="container">
+		</div>
+	</nav>
+</div>
