@@ -1,0 +1,22 @@
+/* blog.component.css */
+.card {
+    margin: 10px; /* Add margins to the card */
+    border: 1px solid #ddd; /* Add a border for better visibility */
+    border-radius: 5px; /* Round the corners of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .card-body {
+    padding: 15px; /* Add padding to the card body */
+  }
+  
+  /* Optional: Style the card title and content */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Add some space below the title */
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }

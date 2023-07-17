@@ -16,6 +16,10 @@ const routes: Routes = [
         path: 'dashboard',
         loadChildren: () => import('./views/pages/dashboard/dashboard.module').then(m => m.DashboardModule)
       },
+      {
+        path: 'sales',
+        loadChildren: () => import('./views/pages/sales-genius/sales-genius.module').then(m => m.SalesGeniusModule)
+      },
       
       { path: '', redirectTo: 'dashboard', pathMatch: 'full' }, 
       // { path: '**', redirectTo: 'dashboard', pathMatch: 'full' }
